@@ -74,6 +74,7 @@ public class ItemGenerator : MonoBehaviour
                     }
                 }
             }
+            lastGeneratePosZ = unitychan.transform.position.z;
         }
     }
 }
