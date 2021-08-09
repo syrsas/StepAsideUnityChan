@@ -43,7 +43,7 @@ public class ItemGenerator : MonoBehaviour
             if (num <= 2)
             {
                 //ƒR[ƒ“‚ðxŽ²•ûŒü‚Éˆê’¼ü‚É¶¬
-                for (float j = -1; j <= 1; j += 0.4f)
+                for (float j = -1; j <= 1; j += 0.2f)
                 {
                     GameObject cone = Instantiate(conePrefab);
                     cone.transform.position = new Vector3(4 * j, cone.transform.position.y, unitychan.transform.position.z + 40);
